@@ -1,0 +1,12 @@
+<!DOCTYPE employee [
+      <!ELEMENT team_section (name, role, mail, num, loc)>
+  <!ATTLIST team_section 
+    id CDATA  #REQUIRED>
+      <!ELEMENT name (#PCDATA)>
+      <!ELEMENT role (#PCDATA)>
+  <!ATTLIST team_section 
+    discipline CDATA  #IMPLIED>
+      <!ELEMENT mail (#PCDATA)>
+      <!ELEMENT num (#PCDATA)>
+      <!ELEMENT loc (#PCDATA)>
+  ]>

@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="Rules.css"?> 
+  <!DOCTYPE Team [
+      <!ELEMENT team_section (name, role, mail, num, loc)>
+  <!ATTLIST team_section 
+    id CDATA  #REQUIRED>
+      <!ELEMENT name (#PCDATA)>
+      <!ELEMENT role (#PCDATA)>
+  <!ATTLIST team_section 
+    discipline CDATA  #IMPLIED>
+      <!ELEMENT mail (#PCDATA)>
+      <!ELEMENT num (#PCDATA)>
+      <!ELEMENT loc (#PCDATA)>
+  ]>
+<Team> 
+    <title>TEAM</title> 
+
+    <team_section> 
+
+        <name>AJ</name> 
+        <role>Founder</role> 
+        <mail>aj@gmail.com</mail> 
+        <num>8921138366</num> 
+        <loc>Palakkad</loc> 
+    </team_section> 
+     <team_section> 
+        <name>Adhi</name> 
+        <role>Co-Founder</role> 
+        <mail>adhi@gmail.com</mail> 
+        <num>7907894241</num> 
+        <loc>Palakkad</loc> 
+    </team_section>
+    <team_section> 
+        <name>Rinsin</name> 
+        <role>Director kannur</role> 
+        <mail>rinsin@gmail.com</mail> 
+        <num>7907893340</num> 
+        <loc>Kannur</loc> 
+    </team_section>
+    <team_section> 
+        <name>KK</name> 
+        <role>Director bnglr</role> 
+        <mail>kk@gmail.com</mail> 
+        <num>9986220052</num> 
+        <loc>Bangalore</loc> 
+    </team_section>
+
+</Team>

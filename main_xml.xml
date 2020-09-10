@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/css" href="Rules.css"?>
+<!DOCTYPE root_element SYSTEM "external_dtd.dtd">
+<Team> 
+    <title>TEAM</title> 
+
+    <team_section id="1"> 
+
+        <name>AJ</name> 
+        <role>Founder</role> 
+        <mail>aj@gmail.com</mail> 
+        <num>8921138366</num> 
+        <loc>Palakkad</loc> 
+    </team_section> 
+     <team_section id="2"> 
+        <name>Adhi</name> 
+        <role>Co-Founder</role> 
+        <mail>adhi@gmail.com</mail> 
+        <num>7907894241</num> 
+        <loc>Palakkad</loc> 
+    </team_section>
+    <team_section id="3"> 
+        <name>Rinsin</name> 
+        <role>Director kannur</role> 
+        <mail>rinsin@gmail.com</mail> 
+        <num>7907893340</num> 
+        <loc>Kannur</loc> 
+    </team_section>
+    <team_section id="4"> 
+        <name>KK</name> 
+        <role>Director bnglr</role> 
+        <mail>kk@gmail.com</mail> 
+        <num>9986220052</num> 
+        <loc>Bangalore</loc> 
+    </team_section>
+<team_section id="5"> 
+        <name>Akash</name> 
+        <role>Member</role> 
+        <mail>akash@gmail.com</mail> 
+        <num>9988775540</num> 
+        <loc>Coimbatore</loc> 
+    </team_section>
+<team_section id="4"> 
+        <name>Rajesh</name> 
+        <role>Member</role> 
+        <mail>rajesh78@gmail.com</mail> 
+        <num>8074531252</num> 
+        <loc>Bangalore</loc> 
+    </team_section>
+
+</Team>

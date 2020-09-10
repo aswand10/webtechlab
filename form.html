@@ -1,0 +1,84 @@
+<html> 
+<head> 
+<link rel="stylesheet" type="text/css" href="formc.css">
+<script type="text/javascript" src="formv.js"></script>
+</head> 
+
+<body  bgcolor="grey"> <div class="wrapper">
+  <h3 class="h3" style="color: skyblue"><img src="logo.jpg" alt="logo" width="50" height="50" >Pollution Awareness</h3><br><br>
+  <nav id="nav">
+        <ul id="navigation">
+            <li><a href="Pollution.html" class="first">Home</a></li>
+            <li><a href="#">Knowing Us &raquo;</a>
+                <ul>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                    <li><a href="#">Branches &raquo;</a>
+                        <ul>
+                            <li><a href="#">Bangalore</a></li>
+                            <li><a href="palakkad.html">Palakkad</a></li>
+                            <li><a href="#">Kannur</a></li>
+                            <li><a href="#">Cochin</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Learn About &raquo;</a>
+                <ul>
+                    <li><a href="air.html">Air Pollution</a></li>
+                    <li><a href="plastic.html">Plastic Pollution &raquo;</a>
+                        <ul>
+                            <li><a href="#">Littering</a></li>
+                            <li><a href="#">Animal Consumption</a></li>
+                            <li><a href="#">Dumping in Water bodies</a></li>
+                            <li><a href="#">Plastic Usage</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="water.html">Water Pollution</a></li>
+                    <li><a href="soil.html">Soil Pollution</a></li>
+                    <li><a href="noise.html">Noise Pollution</a></li>
+                    
+                    <li><a href="radioactive.html">Radioactive Contamination </a></li>
+                </ul>
+            </li>
+            <li><a href="#">How You Can Help!</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.html" class="last">Contact</a></li>
+        </ul>
+  </nav>
+  </div>
+<h3 style="text-align: center"> REGISTRATION FORM </h3>		
+<fieldset> 
+<form name="RegForm" action="/submit.php" onsubmit="return FORM()" method="post"> 
+	
+	<p>Name: <input type="text" size=65 name="Name"> </p><br>	 
+	<p> Address: <input type="text" size=65 name="Address"> </p><br> 
+	<p>E-mail Address: <input type="text" size=65 name="EMail"> </p><br> 
+	<p>Password: <input type="text" size=65 name="Password"> </p><br> 
+	<p>Telephone: <input type="number" size=10 name="Telephone"> </p><br> 
+		
+	<p>SELECT YOUR PLACE :
+		<select type="text" value="" name="Subject"> 
+			<option>Banglore</option> 
+			<option>Palakkad</option> 
+			<option>Kannur</option> 
+			<option>Cochin</option> 
+			
+		</select></p><br><br> 
+	<p>Why you want to be a member: <textarea cols="55" name="Comment"> </textarea></p> 
+    </fieldset>
+	<p><input type="submit" value="send" name="Submit">	 
+		<input type="reset" value="Reset" name="Reset"> 
+		 <button type="submit" class="registerbtn" onclick="alert('Events and News will be Sent To u via mail')">Register</button>
+	</p>	
+    <div class="wrapper"><div class="content"><footer>
+  <p>Author: Aj<br>
+  <a href="mailto:aswand.m@cs.christuniersity.in">mail</a></p>
+  
+  </footer>
+  </div>
+</div>  	 
+</form> 
+</body> 
+</html> 
